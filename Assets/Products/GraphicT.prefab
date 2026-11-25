@@ -25,7 +25,7 @@ Transform:
   m_GameObject: {fileID: 3054439231643895295}
   serializedVersion: 2
   m_LocalRotation: {x: 0.000000029802326, y: 0.22187047, z: 0.97507614, w: 0.000000052154068}
-  m_LocalPosition: {x: 1.0214834, y: 1.2033999, z: -0.046563745}
+  m_LocalPosition: {x: 0.86, y: 1.2033999, z: -0.05}
   m_LocalScale: {x: -117.41193, y: -69.20943, z: -1.6478844}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -148,8 +148,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 3.0471377, y: 1.7579025, z: 1.5967772}
-  m_Center: {x: -0.36724108, y: 1.4304898, z: -0.2983907}
+  m_Size: {x: 3.0471373, y: 1.5933144, z: 0.90546066}
+  m_Center: {x: 7.968336e-10, y: 1.3117963, z: -0.20825565}
 --- !u!54 &4972895097594350929
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -176,7 +176,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
-  m_CollisionDetection: 0
+  m_CollisionDetection: 2
 --- !u!114 &5815111275681306572
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -190,7 +190,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Unity.XR.Interaction.Toolkit::UnityEngine.XR.Interaction.Toolkit.Interactables.XRGrabInteractable
   m_InteractionManager: {fileID: 0}
-  m_Colliders: []
+  m_Colliders:
+  - {fileID: 4962464964375084059}
   m_InteractionLayers:
     m_Bits: 1
   m_DistanceCalculationMode: 1
@@ -259,7 +260,7 @@ MonoBehaviour:
   m_SnapToColliderVolume: 1
   m_ReinitializeDynamicAttachEverySingleGrab: 1
   m_AttachEaseInTime: 0.15
-  m_MovementType: 0
+  m_MovementType: 1
   m_PredictedVisualsTransform: {fileID: 0}
   m_VelocityDamping: 1
   m_VelocityScale: 1
